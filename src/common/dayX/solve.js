@@ -5,7 +5,7 @@ import { readInput } from '../../common/readInput'
 const rawInput = readInput(__dirname)
 
 function convert(rawInput) {
-    const input = rawInput.split('')
+    const input = rawInput.split('\n')
     return input
 }
 

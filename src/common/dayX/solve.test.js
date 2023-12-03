@@ -6,5 +6,5 @@ test('part1 example', () => {
 })
 
 test('part2 example', () => {
-  expect(part1('test')).toBe(0)
+  expect(part2('test')).toBe(0)
 })
