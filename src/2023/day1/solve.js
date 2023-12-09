@@ -39,7 +39,6 @@ export const getDigitsWithWords = (row) => {
         }
         const candidate = arr.slice(index, index + 5).join('')
         const key = Object.keys(dict).find(el => candidate.startsWith(el))
-        // console.log({candidate, key});
         if (key) {
             acc.push(dict[key])
         }
